@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @connection.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @connection.email %>
+</p>
+
+<p>
+  <strong>Kind:</strong>
+  <%= @connection.kind %>
+</p>
+
+<p>
+  <strong>Remark:</strong>
+  <%= @connection.remark %>
+</p>
+
+<%= link_to 'Edit', edit_connection_path(@connection) %> |
+<%= link_to 'Back', connections_path %>
